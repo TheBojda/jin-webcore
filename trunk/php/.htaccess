@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule (.*).html$ /jin-webcore-php/webcore.php/$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*)$ /jin-webcore-php/webcore.php/$1 [L,QSA]
+
+DirectoryIndex webcore.php
+
