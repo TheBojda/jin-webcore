@@ -39,4 +39,5 @@ When the user push the first button, the framework will call the ButtonHandler, 
 See also:
 
 [jin-plugin](https://github.com/TheBojda/jin-plugin) - simple plugin framework for Java and PHP 
+
 [jin-template](https://github.com/TheBojda/jin-template) - simple template engine for Java and PHP, using plain HTML as source
